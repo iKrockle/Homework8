@@ -3,12 +3,8 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         //task 1,2
-        int[] arrInt = new int[3];
+        int[] arrInt = new int[]{1, 2, 3};
 
-        for (int i=0;i<arrInt.length;i++)
-        {
-            arrInt[i]=i+1;
-        }
         System.out.println(Arrays.toString(arrInt).replace("[","").replace("]",""));
 
         double[] arrDoub = {1.57, 7.654, 9.986};
